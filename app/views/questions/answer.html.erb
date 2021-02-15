@@ -1,0 +1,12 @@
+<h1>Stupid Coaching</h1>
+<div class="container">
+  <h2>
+    <%= @user_input["user-input"] %><br>
+    <em>-- You</em>
+  </h2>
+  <h2 class="coach">
+    <%= @answer_coach %><br>
+    <em>--Your coach</em>
+  </h2>
+  <h3><%= link_to "Ask another one", ask_path %></h3>
+</div>
